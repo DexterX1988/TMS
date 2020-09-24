@@ -1,0 +1,344 @@
+.orange {
+    color: orange;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.orange-line:after {
+    border-color: orange;
+}
+
+.white-line:after {
+    border-color: white;
+}
+
+.logo {
+    height: 30px;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+}
+
+.section-name {
+    text-align: center;
+}
+
+.section-name__title {
+    font-size: 36px;
+    font-family: "Open sans";
+    color: rgb(33, 33, 33);
+    line-height: 1.194;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+    margin-top: 100px;
+}
+
+.section-name__subtitle {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: "Open sans";
+    color: rgb(134, 135, 139);
+    line-height: 1.429;
+}
+
+.section-name__title::after {
+    content: "";
+    display: block;
+    width: 62px;
+    border: 1px solid;
+    margin: 28px auto 0;
+    color: orange;
+}
+
+.section-name__text {
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgb(134, 135, 139);
+    line-height: 1.429;
+}
+
+.awesome__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.awesome__item {
+    padding: 0 15px;
+    text-align: center;
+}
+
+.awesome__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 2px solid orange;
+    font-size: 27px;
+    color: orange;
+    margin: 0 auto 30px;
+}
+
+.awesome__text {
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgb(134, 135, 139);
+    line-height: 1.429;
+}
+
+.header {
+    background-color: #000;
+    padding: 20px 0;
+}
+
+.container__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu__item {
+    margin-right: 50px;
+    color: #c9c9c9;
+    text-decoration: none;
+}
+
+.header-menu__item:last-child {
+    margin-right: 0;
+}
+
+.footer {
+    background-color: #000;
+    padding: 20px 0;
+    height: 50px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+body {
+    height: 100%;
+    min-width: 900px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.footer-menu__link {
+    color: #c9c9c9;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: #918888;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.top {
+    background-image: url(./img/Bgc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    ;
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
+
+.top__logo {
+    height: 53px;
+    margin-bottom: 20px;
+}
+
+.top__title {
+    font-size: 36px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.top__left-block {
+    width: 520px;
+}
+
+.top__title:after {
+    content: "";
+    display: block;
+    width: 64px;
+    border: 1px solid white;
+    margin-top: 40px;
+}
+
+.top__subtitle {
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.438;
+    margin-bottom: 45px;
+}
+
+.top__button {
+    display: inline-block;
+    border: 2px solid white;
+    color: white;
+    font-size: 15px;
+    font-family: "Open Sans";
+    line-height: 1.2;
+    background-color: transparent;
+    padding: 13px 30px;
+    text-decoration: none;
+}
+
+.top__form-wrap {
+    border-radius: 6px;
+    width: 360px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.top__form-title {
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    padding: 18px 0px;
+    background-color: #fff;
+}
+
+.top__form-input {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+    box-sizing: border-box;
+    margin-bottom: 35px;
+}
+
+.top__form-input-wrap {
+    padding: 30 38px 0;
+    margin-bottom: 13px;
+}
+
+.top__form-button {
+    width: 100%;
+    text-align: center;
+    border: none;
+    padding: 18px 0;
+    color: white;
+    font-size: 15px;
+    font-family: "Open Sans";
+    line-height: 1.2;
+}
+
+.container__social {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px 0;
+    height: 100px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    width: 100%;
+}
+
+
+}
+.social_menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-text_main {
+    width: 380px;
+    margin-left: 210px;
+}
+.social-menu__link {
+    color: #c9c9c9;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 50px;
+}
+.social-lead {
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 13px;
+}
+.social-text {
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgb(134, 135, 139);
+    line-height: 1.429;
+}
+.features {
+    background-color: rgb(189, 184, 184);
+}
+.features__list {
+    position: relative;
+}
+.features__button {
+    display: none;
+}
+.features_button-fake {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #333333;
+    color: white;
+    margin-bottom: 1px;
+}
+.features__tab {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 210px;
+    width: 540px;
+    height: 320px;
+}
+.features__button:checked~.features__button-fake {
+    background-color: orange;
+}
+.features__button:checked~.features__tab {
+    display: block;
+}
+.features__title {
+    margin-bottom: 60px;
+    font-size: 20px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    line-height: 1.2;
+}
+.features__text {
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgb(134, 135, 139);
+    line-height: 1.429;
+    margin-bottom: 30px;
+}

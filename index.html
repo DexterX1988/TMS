@@ -5,9 +5,204 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./axid.css">
+    <link rel="stylesheet" href="./media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./СSS/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <header class="header">
+        <div class="container container__header">
+            <img src="./img/Logo.pmg.png" alt="" class="logo">
+            <menu class="header-menu">
+                <a href="#" class="header-menu__item">Features</a>
+                <a href="#" class="header-menu__item">About</a>
+                <a href="#" class="header-menu__item">Pricing</a>
+                <a href="#" class="header-menu__item">Reviews</a>
+                <a href="#" class="header-menu__item">Contact</a>
+            </menu>
+            <div class="header__toggle-menu-button">
+                <div class="toggle-menu-button" id="toggle-button"></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="top">
+            <div class="container container__top">
+
+                <div class="top__left-block">
+                    <img src="./img/Logo.pmg.png" alt="logo" class="top__logo">
+                    <h1 class="top__title"> Modern axure template for beautiful prototypes</h1>
+                    <p class="top__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+                    </p>
+
+                    <a href="#" class="top__button">Downoload</a>
+                </div>
+
+
+                <div class="top__form-wrap">
+                    <div class="top__form-title">Try Your <span class="orange">FREE</span> Trial Today
+                    </div>
+
+                    <form action="#" class="top__form">
+                        <div class="top__form-input-wrap">
+
+                            <input type="text" class="top__form-input" placeholder="Name">
+                            <input type="email" class="top__form-input" placeholder="Email">
+                            <input type="text" class="top__form-input" placeholder="Password">
+                        </div>
+                        <button class="top__form-button bg-orange">Get Started</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="social">
+            <div class="container container__social">
+                <div class="social-text_main">
+                    <h2 class="social-lead"> Social Media</h2>
+                    <p class="social-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                    </p>
+                </div>
+                <ul class="social_menu">
+                    <li class="social_menu-items">
+                        <a href="#" class="social-menu__link"><i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="social-menu__link"><i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="social-menu__link"><i class="fa fa-google-plus" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="social-menu__link"><i class="fa fa-pinterest-square" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="social-menu__link"><i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="social-menu__link"><i class="fa fa-stumbleupon" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="social-menu__link"><i class="fa fa-rss" aria-hidden="true"></i>
+                        </a>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </section>
+
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="features__list">
+
+                    <label class="features__item">
+                    <input type="radio" class="features_button" name="feature" checked>
+                    <div class="features_button-fake">Tab 1</div>
+                    <div class="features__tab">
+                        <h2 class="features__title">Tabs with soft transitioning effect.</h2>
+                    </div>
+                    <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                        penatibus et magnis dis parturient montes.
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                        bibendum laoreet.</p>
+                        <p class="features__text">
+                            
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                            bibendum laoreet.</p>
+                    </div>
+                </label>
+                    <label class="features__item">
+                    <input type="radio" class="features_button" name="feature">
+                    <div class="features_button-fake">Tab 2</div>
+                    <div class="features__text"> Text 2
+                    </div>
+                </label>
+                    <label class="features__item">
+                    <input type="radio" class="features_button" name="feature">
+                    <div class="features_button-fake">Tab 3</div>
+                    <div class="features__text"> Text 3</div>
+                    </label>
+
+        </section>
+
+        <section class="awesome">
+            <div class="container">
+                <div class="section-name">
+                    <h2 class="section-name__title orange-line">WHY THIS IS AWESOME</h2>
+                    <p class="section-name__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                </div>
+
+                <div class="awesome__list">
+                    <div class="awesome__item">
+                        <div class="awesome__icon">
+                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="awesome__title">
+                            Easy to Customize
+                        </h3>
+                        <p class="awesome__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+                    </div>
+                    <div class="awesome__list">
+                        <div class="awesome__item">
+                            <div class="awesome__icon">
+                                <i class="fa fa-keyboard-o" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="awesome__title">
+                                Easy to Customize
+                            </h3>
+                            <p class="awesome__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+                        </div>
+                    </div>
+                    <div class="awesome__list">
+                        <div class="awesome__item">
+                            <div class="awesome__icon">
+                                <i class="fa fa-bolt" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="awesome__title">
+                                Easy to Customize
+                            </h3>
+                            <p class="awesome__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+                        </div>
+                    </div>
+        </section>
+
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
+    </main>
+
+    <!--footer class="footer">
+        <div class="container">
+            <ul class="footer-menu">
+                <li class="footer-menu__item">
+                    <a href="#" class="footer-menu__link"><i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="footer-menu__link"><i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="footer-menu__link"><i class="fa fa-google-plus" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="footer-menu__link"><i class="fa fa-pinterest-square" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="footer-menu__link"><i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="footer-menu__link"><i class="fa fa-stumbleupon" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="footer-menu__link"><i class="fa fa-rss" aria-hidden="true"></i>
+                    </a>
+                    </a>
+                </li>
+            </ul>
+            <div class="copyright"> &copy; 2015 Axure Themes</div>
+        </div>
+    </footer>
+
 
 </body>
 
